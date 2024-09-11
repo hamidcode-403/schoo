@@ -1,0 +1,77 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+#logo{
+    height: 30px;
+    width: 40px;
+}
+body{
+
+    background-image: url(images/body-bg.jpg);
+}
+#hero-bg{
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: -1;
+    height: 100vh;
+    width: 620px;
+}
+span{
+    color: rgb(255, 204, 0);
+}
+h3,h1,p{
+    margin-left: 60px;
+    
+}
+h3{
+    padding-top: 80px;
+}
+@media (max-width:600px){
+    .nav-item a{
+        color: white;
+    }
+    span .navbar-toggler-icon{
+        color: white;
+    }
+}
+.nav-link:hover{
+    font-size: large;
+    color: blue;
+    background-color: rgba(250, 235, 215, 0.536);
+}
+h1 span{
+    font-size: 4rem;
+}
+.cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+@media (max-width:574px){
+    .cards{
+        width: 100%;
+    }
+}
+#contact-p{
+    margin-left: 0;
+}
+#teacher-p{
+    margin-left: 0;
+}
+.fed{
+    
+    border-radius: 10px;
+    opacity:80%;
+    background-color: #f8eddd7f;
+    padding: 40px;
+}
+.fed-con{
+    
+    border-radius: 10px;
+    opacity:80%;
+    background-color: #f8eddd7f;
+    padding: 40px;
+}
